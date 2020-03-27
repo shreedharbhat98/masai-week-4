@@ -11,7 +11,7 @@ function add(){
     var amount = Number(document.getElementById("amount").value)
     var category = document.getElementById("select").value
     
-   if((date =="" || spent =="" || amount =="" || category =="") || (date =="&nbsp;" || spent =="&nbsp;" || amount =="&nbsp;" || category =="&nbsp;") || (date ==undefined || spent ==undefined || amount ==undefined || category ==undefined)) {
+   if((date =="" || spent =="" || amount =="" || category =="") || (date =="&nbsp;" || spent =="&nbsp;" || amount =="&nbsp;" || category =="&nbsp;") || (date ==undefined || spent ==undefined || amount ==undefined || category ==undefined) ||(category =="Category")) {
        alert("Please Fill All The Fields")
        updateInput()
    }
