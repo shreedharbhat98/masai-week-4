@@ -1,0 +1,67 @@
+
+
+
+#header{
+    text-align:center;
+    background-color:#E0E0E0;
+    padding:5px;
+    color:#1976D2;
+    font-family: 'Fredoka One', cursive;
+  }
+  body{
+    font-family: 'Crete Round', serif;
+    user-select: none;
+    
+}
+
+  
+  .input{
+    display: grid;
+    grid-template-rows:auto ;
+    grid-template-columns:auto auto auto auto auto;
+    padding:12px;
+    font-family: 'Crete Round', serif;
+  }
+  table{
+    width:100%;
+    margin-top:15px;
+    border-collapse: collapse;
+  }
+  th{
+    background-color:#29B6F6;
+    color:white;
+    border-radius:5px;
+    font-size: 20px;
+  }
+  .totals{
+    margin-top:20px;
+    display: grid;
+    grid-template-rows:auto ;
+    grid-template-columns:auto auto auto ;
+    background-color:#80DEEA;
+    height: 20px;
+    padding:1% 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    
+    
+
+  }
+  #btn{
+      color:yellow;
+      background-color:rgb(110, 102, 102);
+      width:100px;
+      height: 35px;
+      border-radius: 10px;
+
+  }
+  #tableBody > tr:nth-child(even) {
+      background-color:rgb(179, 217, 223);
+      
+
+  }
+  td{
+      text-align: center;
+      padding: 5px;
+  }

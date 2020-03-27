@@ -1,0 +1,198 @@
+header.page-head{
+    height:600px;
+    background: no-repeat left/cover url(https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&auto=format&fit=crop&w=931&q=80);
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    font-family: 'Sriracha', cursive;
+
+    
+}
+.idedu{
+    color:rgb(179, 56, 56);
+    font-size: 80px;
+    text-align: right;
+    margin-right: 100px;
+    margin-top: 100px;
+  
+}
+#learn{
+    margin-top: 0px;
+    font-size: 30px;
+    color: black;
+}
+.logo{
+    display: flex;
+    margin:30px 0px 0px 20px;
+}
+.logo1{
+    display: flex;
+    margin:30px 0px 0px 20p;
+}
+.logo2{
+    display: flex;
+    margin:30px 0px 0px 20p;
+}
+.center{
+        margin:50px 100px 0px 100px;
+        flex-wrap: nowrap;
+        flex-direction: row;
+
+}
+#wrap{
+    margin:20px 100px 0px 50px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    text-align: center;
+}
+#wrap1{
+    margin:20px 100px 0px 50px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    text-align: center;
+}
+#wrap2{
+    margin:20px 100px 0px 50px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    text-align: center;
+}
+
+#gap{
+    margin-left: 70px;
+    margin-right: 150px;
+    font-size: 30px;
+    color: brown;
+}
+#gap1{
+    margin-left: 0px;
+    margin-right: 150px;
+    font-size: 30px;
+    color: brown;
+}
+.button{
+    height:40px;
+    width:200px;
+    border-radius: 10px;
+    background-color:rgb(236, 108, 129);
+    color: cornsilk;
+    font-size: 25px;
+}
+.button:hover{
+    background-color: red;
+    transform: scale(1.2,1.2);
+}
+
+@media (max-width:600px){
+    header.page-head{
+        height:600px;
+        background:rgb(252, 183, 183);
+        display: flex;
+        margin-top: 10px;
+        flex-direction: column;
+        flex-wrap: wrap;    
+                }
+        .idedu{
+        color:rgb(179, 56, 56);
+        font-size: 80px;
+        text-align: right;
+        margin-right: 100px;
+        margin-top: 100px;
+        }
+            
+        #wrap1{
+            margin:-1400px 100px 0px 0px;
+            flex-wrap: nowrap;
+            flex-direction: column;
+            text-align: center;
+        }
+        
+        #gap{
+            margin-left: -100px;
+            margin-right: 0px;
+            margin-top: 10px;
+            font-size: 20px;
+            color: brown;
+            flex-direction: column;
+        }
+        #gap1{
+            margin-left: 10px;
+            margin-right: 150px;
+            font-size: 20px;
+            color: brown;
+        }
+        .logo1{
+            width:80px;
+            margin-top: -100px;
+            margin-left: -150px;
+        }
+       
+        .logo2{
+            width: 100px;
+            margin-left: -100px;
+            margin-top: 200px;
+        }
+        #id1{
+            width: 150px;
+          margin-top:20px;
+          margin-left:0px;
+        }
+        #wrap2{
+            margin-top: -100px;
+            margin-left: -200px;
+        }
+
+}
+
+@media (max-width:850px)
+{
+    
+    .idedu{
+        color:rgb(179, 56, 56);
+        font-size: 80px;
+        text-align: right;
+        margin-right: 50px;
+        margin-top: 100px;
+    }
+    #wrap{
+        margin:0px 100px 0px -150px;
+        flex-wrap: nowrap;
+        flex-direction:column;
+        text-align: center;  
+    }
+    .logo
+    {
+        margin-left: 50px;
+        flex-direction: column;
+    }
+    #wrap1{
+        margin:-1400px 100px 0px 0px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    #gap{
+        margin-left: 200px;
+        margin-top: 230px;
+    }
+    #gap1{
+        margin-left: 180px;
+        margin-top: 230px;
+    }
+
+    #wrap2{
+        margin:-260px 0px 0px 300px;
+        flex-direction: column;
+        flex-wrap:nowrap;
+        
+    }
+    .logo2{
+        margin-top: 0px;
+        margin-left: -200px;
+    }
+ 
+ #id1{
+   margin-left:-100px;
+ }
+}

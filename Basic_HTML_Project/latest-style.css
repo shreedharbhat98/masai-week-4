@@ -1,0 +1,92 @@
+footer {
+    color: #757575;
+    padding: 5px;
+    background-color: #FFEB3B;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    margin: 20px 0;
+}
+
+.text-right {
+    text-align: right;
+}
+
+footer div {
+    padding: 4px 6px;
+}
+
+.footer-icon {
+    margin: 0 10px;
+}
+
+#lovemasai {
+    float: left;
+}
+
+.center {
+    text-align: center;
+}
+
+#idhead {
+    font-family: 'Bree Serif', serif;
+}
+
+.displaygrid {
+    background-color: #00BCD4;
+}
+
+.displaygrid p {
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Lemonada', cursive;
+    padding: 20px;
+}
+
+.flex {
+    display: flex;
+    height: 500px;
+    background-color: #E0E0E0;
+    background-image: url(https://images.unsplash.com/photo-1528826194825-a71b700fe80b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-repeat: repeat-x;
+}
+
+#fruiti {
+    height: 100px;
+    width: 300px;
+}
+
+.top-navigation {
+    padding: 10px;
+    float: right;
+    margin-left: 45%;
+    font-family: 'Lemonada', cursive;
+    font-size: 10px;
+}
+
+.button {
+    background-color: rgba(255, 179, 0, 1.0);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: chartreuse;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .flex{
+      background-image:none;
+      
+    }
+   
+  .top-navigation {
+      padding: 10px;
+      float: left;
+      margin-left: 0;
+      font-family: 'Lemonada', cursive;
+      font-size: 10px;
+  }
+    
+  }
+  

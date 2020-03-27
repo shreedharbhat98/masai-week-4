@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round|Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Expense Manager</title>
+    <header id="header">
+        <h1>Expense Manager</h1>
+    </header>
+</head>
+
+<body>
+        <div class="totals" id="totals">
+            <div id="earned">Total Earnings :0 </div>
+            <div id="expense">Total Expense :0 </div>
+            <div id="balance"> Balance Amount :0 </div>
+        </div>
+        <div class="input" id="input">
+                <div>
+                <label>Date : </label>
+                <input type="date" id="date" required>
+            </div>
+            <div>
+                <label>Spent On :</label>
+                <input type="text" id="spentOn" required>
+            </div>
+            <div>
+                <label>Amount :</label>
+                <input type="text" id="amount" required>
+            </div>
+            <div>
+                <select id='select' required>
+                    <option id=cat>Category</option>
+                    <option id="credit" value="credit">Credit</option>
+                    <option id="debit" value="debit">Debit</option>
+                </select>
+            </div>
+            <div>
+                <input type="button" value="Add" onclick="add()" id="btn">
+            </div>
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Spent On</th>
+                        <th>Amount</th>
+                        <th>Category</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    
+                </tbody>
+            </table>
+        </div>
+    </body>
+
+</html>
