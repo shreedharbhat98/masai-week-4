@@ -33,12 +33,25 @@ function add(){
 }
 }
 
-
+var flag = false
 //Function to upadte table
 function updateTable(details){
     var tbody = document.getElementById("tableBody")
+    
     var row = document.createElement("tr")
+      row.addEventListener('click',function(){
+          var del = document.createElement('button')
+          del.textContent ="Delete"
+          del.style.marginLeft ="15px"
+          col_4.appendChild(del)
+          del.addEventListener('click',function(){
+              event.target.parentNode.parentNode.remove()
+              updateDelete()
+        
+          })
+          flag = true
 
+      })
     var col_1 = document.createElement("td")
     col_1.innerText = details.date
 
@@ -61,7 +74,7 @@ function updateTable(details){
     row.appendChild(col_2)
     row.appendChild(col_3)
     row.appendChild(col_4)
-   
+    
     tbody.appendChild(row)
 }
 
@@ -94,5 +107,25 @@ function updateTotal(details){
     }
     else
     update.style.color ="green"
-        
+
+}
+
+function updateDelete(){
+    if(details.category == "credit"){
+        totalEarning -= details.amount
+        document.getElementById("earned").innerHTML = "Total Earnings : "+totalEarning
+    }
+    else if(details.category =="debit"){
+        totalExpense -= details.amount
+        document.getElementById("expense").innerHTML = "Total Expense : "+totalExpense
+    }
+
+    balance = (totalEarning - totalExpense)
+    var update = document.getElementById("balance")
+    update.innerHTML = "Balance Amount : "+balance
+    if(balance < 2000){
+        update.style.color ="red"
+    }
+    else
+    update.style.color ="green"
 }

@@ -65,3 +65,6 @@
       text-align: center;
       padding: 5px;
   }
+  tr:hover{
+    background-color:#E3F2FD;
+  }
