@@ -1,5 +1,7 @@
 
-
+.gradient{
+  background-color:#E0F7FA;
+}
 
 #header{
     text-align:center;
@@ -21,6 +23,7 @@
     grid-template-columns:auto auto auto auto auto;
     padding:12px;
     font-family: 'Crete Round', serif;
+    font-size: 20px;
   }
   table{
     width:100%;
@@ -28,21 +31,23 @@
     border-collapse: collapse;
   }
   th{
-    background-color:#29B6F6;
+    background-color:#1565C0;
     color:white;
     border-radius:5px;
-    font-size: 20px;
+    font-size: 25px;
   }
   .totals{
     margin-top:20px;
     display: grid;
     grid-template-rows:auto ;
     grid-template-columns:auto auto auto ;
-    background-color:#80DEEA;
+    background-color:#1E88E5;
+    color: whitesmoke;
+    font-weight: bold;
     height: 20px;
     padding:1% 0;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     
     
@@ -54,6 +59,7 @@
       width:100px;
       height: 35px;
       border-radius: 10px;
+      font-weight: bold;
 
   }
   #tableBody > tr:nth-child(even) {
@@ -66,5 +72,5 @@
       padding: 5px;
   }
   tr:hover{
-    background-color:#E3F2FD;
+    background-color:#F8BBD0;
   }
