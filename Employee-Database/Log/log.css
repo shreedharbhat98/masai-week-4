@@ -1,0 +1,47 @@
+body{
+    background-color: #EEEEEE;
+}
+
+
+
+.felx{
+    display: flex;
+    margin-top: 10px;
+    
+}
+
+#header{
+    height: 55px;
+    background-color:#9FA8DA;
+}
+#back{
+    margin-top: 12px;
+    margin-right: 20px;
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-weight: bold;
+    float: right;
+    background-color: #3949AB;
+}
+#back:hover{
+    background-color: #1A237E;
+}
+#details{
+    margin:0 25%;
+}
+.table{
+    width: 100%;
+}
+th{
+    background-color: #0288D1;
+    height: 40px;
+    color: whitesmoke;
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    /* font-weight: bold; */
+    /* font-family: 'Gotu', sans-serif; */
+
+    /* font-family: 'IM Fell French Canon SC', serif; */
+}
